@@ -1,0 +1,21 @@
+{
+    "name": "zarlo/twig-bbcode",
+    "description": "Simple Twig extension to convert most popular BBCode tags into HTML ones.",
+    "type": "library",
+    "require": {
+        "chriskonnertz/bbcode": "^1.1",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "zarlo": "src/"
+        }
+    },
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "zarlo",
+            "email": "zarlo5899@gmail.com"
+        }
+    ]
+}
