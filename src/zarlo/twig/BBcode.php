@@ -62,5 +62,3 @@ class BBcode extends \Twig_Extension
     }
 
 }
-
-
