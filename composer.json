@@ -1,7 +1,7 @@
 {
     "name": "zarlo/twig-bbcode",
     "description": "Simple Twig extension to convert most popular BBCode tags into HTML ones.",
-    "type": "library",
+    "homepage": "https://github.com/zarlo/BBCodeTwigExtension.git",
     "require": {
         "chriskonnertz/bbcode": "^1.1",
         "twig/twig": "^2.4"
@@ -15,7 +15,8 @@
     "authors": [
         {
             "name": "zarlo",
-            "email": "zarlo5899@gmail.com"
+            "email": "zarlo5899@gmail.com",
+            "homepage": "https://zarlo.xyz"
         }
     ]
 }
