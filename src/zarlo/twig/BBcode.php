@@ -20,9 +20,9 @@ class BBcode extends \Twig_Extension
     public function __construct($bbcode)
     {
         if($bbcode == null){
-            $this->$bbcode = new ChrisKonnertz\BBCode\BBCode();
+            $this->bbcode = new ChrisKonnertz\BBCode\BBCode();
         }
-        $this->$bbcode = $bbcode;
+        $this->bbcode = $bbcode;
     }
 
     public function getFilters()
@@ -35,7 +35,7 @@ class BBcode extends \Twig_Extension
     function bbCodeFilter($string)
     {   
 
-        return $this->$bbcode->render($string);
+        return $this->bbcode->render($string);
 
     }
 
