@@ -17,7 +17,7 @@ class BBcode extends \Twig_Extension
     *
     * @param null|ChrisKonnertz\BBCode\BBCode $bbcode
     */
-    public function __construct($bbcode)
+    public function __construct($bbcode = null)
     {
         if($bbcode == null){
             $this->bbcode = new ChrisKonnertz\BBCode\BBCode();
